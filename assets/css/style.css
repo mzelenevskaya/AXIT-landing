@@ -75,7 +75,7 @@ img {
     margin: 0 calc(var(--gutter) * -1);
 }
 
-col-1 {
+.col-1 {
     margin: 0 var(--gutter);
     width: calc(100% / 12 * 1 - var(--gutter) * 2);
 }
@@ -534,8 +534,8 @@ col-1 {
 }
 
 .prime-btn:hover, .prime-btn:focus, .prime-btn:active {
-    background-color: #813535; 
-    border: 2px solid #813535; 
+    background-color: #ae4d83; 
+    border: 2px solid #ae4d83; 
 }
 /* outline-btn */
 .outline-btn {
@@ -551,8 +551,8 @@ col-1 {
 }
 
 .outline-btn:hover, .outline-btn:focus, .outline-btn:active {
-    background-color: #813535; 
-    border: 2px solid #813535; 
+    background-color: #6d6868;
+    border: 2px solid #6d6868; 
 }
 /* switcher */
 .switcher {
