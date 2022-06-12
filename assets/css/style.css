@@ -986,11 +986,12 @@ input:checked + .switcher__slider:before {
         display: none;
         position: absolute;
         right: 20%;  
-        top: 100%; 
+        
         padding: 3px;
         border-radius: 10px;  
         background-color:rgba(0, 0, 0, .5);
         transition: transform 0.2s;
+        font-size: 14px;
     }
 }
 
@@ -1050,8 +1051,16 @@ input:checked + .switcher__slider:before {
     }
 }
 
-.header__link:hover, .header__link:focus, .header__link:active {
+.header__menu-link:hover, .header__menu-link:focus, .header__menu-link:active {
     opacity: .8;
+}
+
+
+@media (max-width: 560px) {  
+    .header__menu-link_burger {
+        font-size: 14px;
+        
+    }
 }
 
 @media (max-width: 560px) {   
@@ -1150,7 +1159,7 @@ input:checked + .switcher__slider:before {
 @media (max-width: 768px) {
     .promo {      
         padding-top: 100px;
-        padding-bottom: 50x;
+        padding-bottom: 50px;
     }
 }
 
