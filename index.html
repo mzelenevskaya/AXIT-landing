@@ -31,7 +31,7 @@
             <nav class="header__nav">
               <ul class="header__menu">
                 <li class="header__menu-item header__menu_has-child">
-                  <a class="header__menu-link" href="#features">Features</a>
+                  <a class="header__menu-link js-scroll" href="#features">Features</a>
                   <ul class="header__menu-sub1">
                     <li class="header__menu-sub1-item header__menu-sub_has-child">
                       <a class="header__menu-link" href="/">Feature 1</a>
@@ -68,7 +68,7 @@
                   </ul>
               </li>
               <li class="header__menu-item header__menu_has-child">
-                <a class="header__menu-link" href="#history">About</a>
+                <a class="header__menu-link js-scroll" href="#history">About</a>
                 <ul class="header__menu-sub1">
                   <li class="header__menu-sub1-item header__menu-sub_has-child">
                     <a class="header__menu-link" href="/">About 1</a>
@@ -105,7 +105,7 @@
                 </ul>
             </li>
             <li class="header__menu-item header__menu_has-child">
-                <a class="header__menu-link" href="#pricing">Pricing</a>
+                <a class="header__menu-link js-scroll" href="#pricing">Pricing</a>
                 <ul class="header__menu-sub1">
                   <li class="header__menu-sub1-item header__menu-sub_has-child">
                     <a class="header__menu-link" href="/">Pricing 1</a>
@@ -142,7 +142,7 @@
                 </ul>
             </li>
             <li class="header__menu-item header__menu_has-child">
-              <a class="header__menu-link" href="#reviews">Reviews</a>
+              <a class="header__menu-link js-scroll" href="#reviews">Reviews</a>
               <ul class="header__menu-sub1">
                 <li class="header__menu-sub1-item header__menu-sub_has-child">
                   <a class="header__menu-link" href="/">Review 1</a>
@@ -179,7 +179,7 @@
               </ul>
           </li>          
           <li class="header__menu-item header__menu_has-child">
-            <a class="header__menu-link" href="#contact">Contact</a>
+            <a class="header__menu-link js-scroll" href="#contact">Contact</a>
             <ul class="header__menu-sub1">
               <li class="header__menu-sub1-item header__menu-sub_has-child">
                 <a class="header__menu-link" href="/">Contact 1</a>
@@ -215,17 +215,28 @@
                 </li>                    
             </ul>
         </li>
-            </ul>
-            </nav>
-            <div class="header__theme">
-              <label class="header__theme-switcher switcher" for="switcher__checkbox">
-                <input id="switcher__checkbox" type="checkbox"/>
-                <div class="switcher__slider switcher__slider_round"></div>
-              </label>
-            </div>
-          </div>
-        </div>
-    </header>
+      </ul>
+      <div class="header__nav-close">
+        <span class="header__nav-close-line"></span>
+        <span class="header__nav-close-line"></span>
+      </div>
+    </nav>
+    <!-- burger -->
+    <div class="header__burger burger">
+      <span class="burger__line burger__line_first"></span>
+      <span class="burger__line burger__line_second"></span>
+      <span class="burger__line burger__line_third"></span>
+    </div>
+    <!-- theme -->
+    <div class="header__theme">
+      <label class="header__theme-switcher switcher" for="switcher__checkbox">
+        <input id="switcher__checkbox" type="checkbox"/>
+        <div class="switcher__slider switcher__slider_round"></div>
+      </label>
+    </div>
+  </div>
+</div>
+</header>
 
     <!-- main -->
     <main class="main">
@@ -233,7 +244,7 @@
     <section class="promo">
       <div class="container">
         <div class="promo__row row">
-          <div class="promo-content col-7">
+          <div class="promo-content col-7 col-md-12 col-xs-12">
             <img
               src="./assets/image/promo/logo.png"
               alt="logo"
@@ -251,7 +262,7 @@
             </button>    
             
           </div>   
-          <div class="promo-input col-5">
+          <div class="promo-input col-5 col-md-12 col-xs-12">
             <form class="promo-form" action="" method="post">
               <p class="promo-form__title">Try Your <span>FREE</span> Trial Today</p>  
               <div class="promo-form__wrapper">                
